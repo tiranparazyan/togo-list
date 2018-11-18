@@ -1,0 +1,30 @@
+.search-with-list {
+    display: flex;
+    height: 400px;
+
+    .inner-container {
+        margin: 20px auto;
+
+        .places-list-container {
+            display: flex;
+            flex-direction: column;
+            height: 350px;
+            overflow: auto;
+            flex-grow:0;
+
+            .places-list-inner {
+                display: inline-flex;
+                flex-grow: 0;
+                flex-direction: column;
+                flex-shrink: 0;
+            }
+
+            .place-row {
+                padding: 5px;
+                display: inline-flex;
+                flex-grow: 1;
+                justify-content: space-between;
+            }
+        }
+    }
+}

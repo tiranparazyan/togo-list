@@ -42,3 +42,13 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## About the project
+
+This is a togo list built with react and google maps. Users can add a place by clicking on a place on the map and save.
+On the saved place will appear a marker with a label name which they saved, and the name of the place will appear in a list too.
+They can search for places and the places will be filtered both in map and in list. Also, users can mark places as visited.
+The visited places' marker will become blue on the map.
+
+As the app was small I didn't waste time on using redux/mobx or different state container, although keeping places and name
+would be better in redux/mobx to avoid additional renders in larger apps.
