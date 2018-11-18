@@ -20,7 +20,12 @@ export default class PlacesList extends PureComponent {
                                     <div className="place-row" key={item.id}>
                                         <div>{item.name}</div>
                                         <div>
-                                            <input type="checkbox" name={item.id} onChange={this.changeHandler} />
+                                            <input
+                                                type="checkbox"
+                                                name={item.id}
+                                                onChange={this.changeHandler}
+                                                checked={item.visited}
+                                            />
                                         </div>
                                     </div>
                                 )
